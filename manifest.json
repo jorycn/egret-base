@@ -1,0 +1,35 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/res/res.js",
+		"libs/modules/promise/promise.js",
+		"libs/modules/weixinapi/weixinapi.js"
+	],
+	"game": [
+		"bin-debug/Platform.js",
+		"bin-debug/Xtools/Cookie.js",
+		"bin-debug/Data/Config.js",
+		"bin-debug/Data/Store.js",
+		"bin-debug/Events/LoadEvent.js",
+		"bin-debug/Events/MainEvent.js",
+		"bin-debug/Game/GameContainer.js",
+		"bin-debug/Game/XJssdk.js",
+		"bin-debug/Loader/LoadBar.js",
+		"bin-debug/Loader/Loader.js",
+		"bin-debug/Loader/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/Xtools/Effect.js",
+		"bin-debug/Xtools/GameLayerManager.js",
+		"bin-debug/Xtools/HitTest.js",
+		"bin-debug/Xtools/HttpBase.js",
+		"bin-debug/Xtools/JsonReq.js",
+		"bin-debug/Xtools/MCFactory.js",
+		"bin-debug/Xtools/PanelEffect.js",
+		"bin-debug/Xtools/SoundManager.js",
+		"bin-debug/Xtools/Util.js",
+		"bin-debug/Xtools/XLog.js"
+	]
+}

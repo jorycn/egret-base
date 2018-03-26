@@ -1,29 +1,29 @@
 {
-  "native": {
-    "path_ignore": []
-  },
-  "publish": {
-    "web": 0,
-    "native": 1,
-    "path": "bin-release"
-  },
-  "egret_version": "4.0.3",
-  "modules": [
-    {
-      "name": "egret"
-    },
-    {
-      "name": "game"
-    },
-    {
-      "name": "res"
-    },
-    {
-      "name": "tween"
-    },
-    {
-		  "name": "weixinapi",
-		  "path": "./libs/weixinapi"
+	"engineVersion": "5.1.7",
+	"compilerVersion": "5.1.7",
+	"template": {},
+	"target": {
+		"current": "web"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "weixinapi",
+			"path": "../libsrc/weixinapi/libsrc"
 		}
-  ]
+	]
 }
